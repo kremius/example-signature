@@ -1,0 +1,9 @@
+[requires]
+boost/1.79.0
+gtest/1.11.0
+
+[generators]
+cmake
+
+[options]
+boost:without_test=True
