@@ -14,7 +14,7 @@ set(TESTS_SOURCES
     "tests/signature_tests.cpp"
 )
 
-set(STRICT_OPTIONS -Wall -Wextra -Werror -ansi)
+set(STRICT_OPTIONS -Wall -Wextra -Werror -ansi -Wno-address)
 
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
